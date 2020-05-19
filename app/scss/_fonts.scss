@@ -1,0 +1,26 @@
+@font-face{
+    font-family: 'Quicksand-Bolt',Arial, Helvetica, sans-serif;
+    src: url(../fonts/Quicksand-Bold.woff2) format('woff2'),
+         url(../fonts/Quicksand-Bold.woff) format('woff');
+    font-weight: 900;
+    font-display: swap;
+
+}
+
+@font-face{
+    font-family: 'Quicksand-Medium',Arial, Helvetica, sans-serif;
+    src: url(../fonts/Quicksand-Medium.woff2) format('woff2'),
+         url(../fonts/Quicksand-Medium.woff) format('woff');
+    font-weight: 500;
+    font-display: swap;     
+         
+}
+
+@font-face{
+    font-family: 'Quicksand-Regular',Arial, Helvetica, sans-serif;
+    src: url(../fonts/Quicksand-Regular.woff2) format('woff2'),
+         url(../fonts/Quicksand-Regular.woff) format('woff');
+    font-weight: 400;
+    font-display: swap;     
+         
+}
