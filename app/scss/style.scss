@@ -9,7 +9,7 @@
 .header__top-inner{
     display: flex;
     justify-content: space-between;
-    padding: 25px 0;
+    padding: 24px 0;
 }
 
 .header__box{
@@ -19,15 +19,15 @@
 
 
 .header__btn{
-    padding: 10px 20px;
-    background-color: #0674ec;
+    padding: 10px ;
+    background-color: $bg-btn;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     color: #fff;
     width: 140px;
     font-size: 12px;
-    height: 36px;
     text-align: center;
+    margin-right: 50px;
     
 
 
@@ -35,7 +35,7 @@
 .header__menu-inner{
     display: flex;
     justify-content: space-between;
-    padding: 35px 0;
+    padding: 19px 0;
     align-items: center;
 }
 
@@ -43,19 +43,23 @@
     display: flex;
     align-items: center;
 }
-.menu__list{
-    display: flex;
-}
+
 
 .menu__item{
-    margin-right: 35px;
+    margin-right: 30px;
+    display: inline-block;
+    a{
+        text-transform: uppercase;
+        font-size: 15px;
+        color: #333333;
+        line-height: 42px;
+        font-family: $medium;
+        font-weight: 500;
+    }
     
 }
 .menu__item:last-child{
     margin-right: 0;
-}
-.menu__item a{
-    text-transform: uppercase;
 }
 
 .user__logo{
@@ -76,10 +80,56 @@
 
 .user__about{
     margin-left: 20px;
+    .user__name{
+        margin-bottom: 8px;
+        font-family: 'Quicksand-Regular',Arial, Helvetica, sans-serif;
+        font-weight: 500;
+    }
+    .user__cash{
+        font-family: 'Quicksand-Bold', Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: $bg-btn;
+        font-weight: 900;
+    }
 }
 
   
+.search__form{
+    width: 358px;
+    position: relative;
+}
+.search__input{
+        display: block;
+        width: 100%;
+        border-radius: 25px;
+        height: 44px;
+        font-size: 15px;
+        padding-left: 25px;
+        padding-right: 70px;
+        border: 1px solid #d9dfe5;
+        
+        &::placeholder{
+            color: #898f96;
+            font-weight: 400;
+        }
+}
+.search__btn{
+        background-color: $bg-btn;
+        position: absolute;
+        top: 0;
+        right: 0px;
+        width: 70px;
+        height: 44px;
+        border-radius: 25px;
+        border: none;
+        display: flex;
 
+        & img{
+            margin: auto;
+        }
+    }
 
   
 
+
+    
