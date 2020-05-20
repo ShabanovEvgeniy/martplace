@@ -180,6 +180,8 @@
 .product-search__inner{
     position: relative;
     padding: 170px 0 120px;
+    display: flex;
+    justify-content: space-between;
 }
 
     .search-box{
@@ -216,5 +218,38 @@
             
         }
     }
+
+    .product-search__item{
+        padding: 50px 35px;
+        text-align: center;
+        transition: all 1s;
+        border-radius: 4px;
+        background-color: #fff;
+
+        &-img{
+            width: 115px;
+            height: 115px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display:inline-block;
+            margin-bottom: 30px;
+        }
+
+        &-title{
+            font-style: 24px;
+            margin-bottom: 30px;
+        }
+
+        &-text{
+            line-height: 30px;
+            color: #dbdbdb;
+            max-width: 300px;
+        }
+
+        &:hover{
+            box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+        }
+    }
     
-      
+    
