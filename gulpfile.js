@@ -24,6 +24,7 @@ gulp.task('style', function () {
         'node_modules/magnific-popup/dist/magnific-popup.css',
         'node_modules/normalize.css/normalize.css',
         'node_modules/rateyo/src/jquery.rateyo.css',
+        'node_modules/font-awesome/css/font-awesome.css',
     ])
         .pipe(concat('libs.min.css'))
         .pipe(cssmin())

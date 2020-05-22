@@ -320,7 +320,12 @@
         border-radius: 25px;
         color: #868c96;
         margin-right: 15px;
-        margin-bottom: 60px;
+        margin-bottom: 40px;
+    }
+
+    .top-product-footer{
+        padding-top:24px ;
+        border-top: 1px solid #ececec;
     }
 
     
@@ -359,6 +364,25 @@
        }
 
        
+    }
+
+    .slick-prev{
+        position: absolute;
+        right: 46px;
+        top: -117px;
+        background-color: inherit;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .slick-next{
+        position: absolute;
+        top: -117px;
+        right: 95px;
+        background-color: inherit;
+        border: none;
+        outline: none;
+        cursor: pointer;
     }
     
     
