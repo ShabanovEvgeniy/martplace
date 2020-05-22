@@ -53,8 +53,8 @@
         font-size: 15px;
         color: #333333;
         line-height: 42px;
-        font-family: $medium;
-        font-weight: 500;
+        @include medium;
+        
     }
     
 }
@@ -82,14 +82,13 @@
     margin-left: 20px;
     .user__name{
         margin-bottom: 8px;
-        font-family: 'Quicksand-Regular',Arial, Helvetica, sans-serif;
-        font-weight: 500;
+        @include medium;
     }
     .user__cash{
-        font-family: 'Quicksand-Bold', Arial, Helvetica, sans-serif;
+        @include bold;
         font-size: 15px;
         color: $bg-btn;
-        font-weight: 900;
+        
     }
 }
 
@@ -110,7 +109,7 @@
         
         &::placeholder{
             color: #898f96;
-            font-weight: 400;
+            @include regular;
         }
 }
 .search__btn{
@@ -142,15 +141,13 @@
 
     &-title{
         font-size: 60px;
-        font-weight: 900;
         margin-bottom: 2px;
-        font-family: $bold;
+        @include bold;
 
         span{
-            font-weight: 500;
             display: block;
             margin-bottom: 23px;
-            font-family: $regular;
+            @include medium;
         }
     }
     &-subtitle{
@@ -158,7 +155,7 @@
         line-height: 70px;
         letter-spacing: 2px;
         margin-bottom: 68px;
-        font-family: $medium;
+        @include medium;
     }
     &-btn{
         max-width: 411px;
@@ -168,11 +165,7 @@
     }
    
 }
-.link-btn--white{
-    background-color: #fff;
-    color: #000;
-}
-  
+
 // -----------------------marketplace end---------------\\
 
 // -----------------------product-search------------------\\
@@ -243,7 +236,7 @@
 
         &-text{
             line-height: 30px;
-            color: #dbdbdb;
+            color: #555;
             max-width: 300px;
         }
 
@@ -256,6 +249,120 @@
     // -----------------------product-search end------------------\\
     // -----------------------top-product------------------\\
 
+    .top-product{
+        background-color: #eff1f5;
+        padding: 117px 0;
+    }
+    .top-product__header{
+        padding: 40px 27px;
+        background-color: #fff;
+        margin-bottom: 45px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-title{
+            font-size: 30px;
+            @include regular;
+            max-width: 700px;
+        }
+
+        &-btn{
+            width: 110px;
+            height: 45px;
+            background-color: #7347c1;
+            background-repeat: 25px;
+            position: relative;
+            border-radius: 25px;
+            border: none;
+        }
+    }
+
+    .top-product__slider-item {
+        display: flex;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .top-product__slider-img{
+        display: inline-block;
+        height: 450px;
+        width: calc(100% - 590px);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .top-product__slider-info{
+        padding: 45px 40px 20px;
+
+       
+    }
+
+    .top-product__slider-desc{
+        font-size: 24px;
+        color: #000;
+        @include medium;
+        margin-bottom: 15px;
+    }
+
+    .top-product__text{
+        max-width: 480px;
+        color: #555;
+        line-height: 30px;
+        margin-bottom: 35px;
+    }
+
+    .top-product__link{
+        padding: 7px 16px;
+        background-color: #f1f3f6;
+        font-style: 15px;
+        border-radius: 25px;
+        color: #868c96;
+        margin-right: 15px;
+        margin-bottom: 60px;
+    }
+
+    
+
+    
+
+    .slider-user{
+        display: flex;
+
+        &__item{
+            display: flex;
+            margin-right: 20px;
+            align-items: center;
+
+        }
+
+       &__img{
+           width: 25px;
+           height: 25px;
+           border-radius: 50%;
+           background-size: cover;
+           background-position: center;
+           background-repeat: no-repeat;
+           margin-right: 10px;
+       }
+
+       &__logo{
+        width: 17px;
+        height: 17px;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-right: 10px;
+
+       }
+
+       
+    }
     
     
-    
+
+
+   
+      

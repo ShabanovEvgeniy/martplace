@@ -10,7 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "browser-sync": "^2.26.7",
-    "cssmin": "^0.4.3",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-concat": "^2.6.1",
@@ -22,6 +21,7 @@
   "devDependencies": {
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.1.0",
-    "magnific-popup": "^1.1.0"
+    "magnific-popup": "^1.1.0",
+    "rateyo": "^2.3.5"
   }
 }
