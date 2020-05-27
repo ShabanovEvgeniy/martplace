@@ -219,31 +219,6 @@
         border-radius: 6px;
         box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
     
-
-        &::before{
-            content: '';
-            width: calc(100% - 30px);
-            height: 13px;
-            background-color: rgba(255, 255, 255, .5);
-            position: absolute;
-            left: 15px;
-            top: -13px;
-            border-top-left-radius: 6px;
-            border-top-right-radius: 6px;
-        }
-        &::after{
-            content: '';
-            width: calc(100% - 64px);
-            height: 26px;
-            background-color: rgba(255, 255, 255, .5);
-            position: absolute;
-            left: 30px;
-            top: -26px;
-            border-top-left-radius: 6px;
-            border-top-right-radius: 6px;
-            
-        }
-
         &__form{
             display: flex;
 
@@ -251,11 +226,10 @@
                 padding: 20px 60px;
                 background-color: #0674ec;
                 color: #fff;
+                cursor: pointer;
             }
         }
     }
-
-   
 
         .searc-box__input{
             max-width: 615px;
@@ -329,15 +303,7 @@
             max-width: 700px;
         }
 
-        &-btn{
-            width: 110px;
-            height: 45px;
-            background-color: #7347c1;
-            background-repeat: 25px;
-            position: relative;
-            border-radius: 25px;
-            border: none;
-        }
+        
     }
 
     .top-product__slider-item {
@@ -404,9 +370,6 @@
     }
    
 
-    
-
-    
 
     .top-product__footer{
         padding-top:24px ;
@@ -692,7 +655,179 @@
         color: #fff;
         cursor: pointer;
         @include medium;
+        outline: none;
 
     }
+
+    // ------------------------------------------\\
+
+    // ----------------subscribers----------------\\
+
+.subscribers{
+    padding: 115px 0;
+    background-color: #eff1f5;
+}
+
+.subscribers__box{
+    padding: 40px 30px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.subscribers__title{
+    font-size: 30px;
+    @include regular;
+
+
+}
+
+.subscribers__slider__item{
+    display: flex;
+    justify-content: space-between;
+}
+
+// ----------------end-----------------\\
+
+//----------item-sale-------------------\\
+  
+  .item-sale{
+      padding: 90px 0;
+      background-color: #212225;
+  }
+
+  .item-sale__inner{
+      display: flex;
+      justify-content: space-between;
+  }
+
+
+
+  .item-sale__item{
+      text-align: center;
+      font-size: 36px;
+  }
+
+  .item-sale__icon{
+    margin-bottom: 45px;
+  }
+
+
+  .item-sale__content{
+    margin-bottom: 15px;
+  }
+  .item-sale__text{
+      font-size: 18px;
+      color: #fff;
+      @include regular;
+  }
+
+  .item-sale__item--orange{
+      color: #62d03b;
+  }
+
+  .item-sale__item-pink{
+      color:#58c9e9;
+  }
+
+  .item-sale__item-green{
+    color:#60ac41;
+} 
+   .item-sale__item-red{
+    color:#ff6a6d;
+}
+
+
+// -----------------------------------------\\\\\
+
+// --------------advantages-----------------\\\\\
+
+.advantages{
+    padding: 105px 0;
+}
+
+.advantages__box{
+    text-align: center;
+    max-width: 695px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+    &-title{
+        font-size: 36px;
+        @include regular;
+        margin-bottom: 35px;
+
+        span{
+            color: #7faaf2;
+        }
+    }
+
+    &-subtitle{
+        color: #818181;
+        line-height: 30px;
+    }
+}
+
+.advantages__inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.advantages-item{
+    max-width: calc((100% / 3) - 30px);
+    padding: 50px 30px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+
+    span{
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        font-size: 48px;
+        color: #e5eafe;
+    }
+
+    &__icon{
+        font-size: 60px;
+        margin-bottom: 50px;
+    }
+
+    &__title{
+        font-size: 24px;
+        @include regular;
+        margin-bottom: 30px;
+        color: #000;
+    }
+
+    &__text{
+        line-height: 30px;
+        color: #555555;
+    }
+}
+
+.advantages-item__icon--blue{
+    color: #0674ec;
+}
+.advantages-item__icon--pink{
+    color: #b295da;
+}
+.advantages-item__icon--green{
+    color: #77de51;
+}
+.advantages-item__icon--yelow{
+    color: #feb71d;
+}
+.advantages-item__icon--light{
+    color: #58c9e9;
+}
+.advantages-item__icon--red{
+    color: #ff6a6d;
+}
 
   
