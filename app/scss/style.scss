@@ -830,4 +830,58 @@
     color: #ff6a6d;
 }
 
-  
+//   ---------------------------------------\\
+
+// ----------- shopping -----------------\\
+
+.shopping__inner{
+    width: 100%;
+    display: flex;
+    justify-self: center;
+
+}
+
+.shopping__item{
+    max-width: 50%;
+    width: 100%;
+    min-height: 565px;
+    text-align: center;
+    padding: 90px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.shopping__icon{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 101px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+.shopping__icon--small{
+    width: 100px;
+    height: 100px;
+}
+
+.shopping__title{
+    font-size: 36px;
+    margin-bottom: 29px;
+}
+
+.shopping__text{
+    max-width: 590px;
+    margin: 0 auto;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+
+.shopping__link{
+    padding: 20px ;
+    color: #7347c1;
+    background-color: #fff;
+    border-radius: 30px;
+    width: 190px;
+}
