@@ -1084,3 +1084,45 @@ justify-content: space-between;
         color:#0674ec;
     }
 }
+
+// ------------privilege end-------------\\
+
+// ------------cooperation start---------------\\
+
+.cooperation{
+    background-color: #57229d;
+    color: #fff;
+    padding: 115px 0;
+
+    &__inner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.cooperation-card{
+    text-align: center;
+
+    &__title{
+        margin-bottom: 25px;
+        font-size: 36px;
+        @include regular;
+
+    }
+
+    span{
+        display: inline-block;
+        font-size: 18px;
+        margin-bottom: 50px;
+        color: #e7e7e7;
+    }
+
+    .cooperation-card__link{
+        padding: 20px;
+        width: 192px;
+        background-color: #fff;
+        border-radius: 30px;
+        color: #8eb4f4;
+    }
+}
