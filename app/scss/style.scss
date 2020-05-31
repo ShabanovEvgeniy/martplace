@@ -938,3 +938,101 @@ justify-content: space-between;
         border-radius: 30px;
     }
 }
+
+// ------------reviews end-----------------\\
+
+// ------------- news --------------\\
+
+.news{
+    background-color: #eef0f4;
+    padding: 115px 0;
+
+    &__inner{
+        display: flex;
+        justify-content: space-between;;
+    }
+}
+
+.news__card{
+    width: calc((100% / 3) - 30px);
+
+    &-img{
+        height: 230px;
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+
+    &-content{
+        padding: 25px;
+        background-color: #fff;
+
+        .news__card-title{
+            font-size: 22px;
+            @include medium;
+            margin-bottom: 30px;
+        }
+
+        .news__card-text{
+            line-height: 30px;
+            margin-bottom: 10px;
+            color: #878787;
+            
+        }
+    }
+}
+
+.news__card-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 27px;
+    background-color: #fff;
+    border-top: 1px solid #ececec;
+    color: #878787;
+    font-size: 15px;
+
+    .date{
+        padding-left: 23px;
+        position: relative;
+        &::before{
+            content: '\f017';
+            position: absolute;
+            font-family: 'FontAwesome';
+            color: #2787ef;
+            left: 0;
+
+        }
+    }
+}
+
+.card-views__item{
+    display: inline-block;
+    padding-left: 25px;
+    position: relative;
+    line-height: 17px;
+
+    & + .card-views__item{
+        margin-left: 25px;
+    }
+}
+
+.card-views__item--reviwes{
+    
+    &::before{
+        content: '\f075';
+        position: absolute;
+        font-family: 'FontAwesome';
+        left: 0;
+    }
+}
+
+.card-views__item--views{
+    &::before{
+        content: '\f06e';
+        position: absolute;
+        font-family: 'FontAwesome';
+        left: 0;
+    }
+}
