@@ -1305,3 +1305,88 @@ justify-content: space-between;
 .link-ball{
     background: url('css_sprites.png') 0 0;
 }
+
+// --------footer end---------------------\\
+
+// -------search--------------------------\\
+
+.search-product{
+    background-color: #482aa1;
+    padding: 70px 0 30px;
+
+    &__inner{
+        display: flex;
+       justify-content: center;
+    }
+}
+
+.search-product__inner-box{
+    max-width: 50%;
+    margin-bottom: 35px;
+
+    .search-product__title{
+        color: #f3f3f8;
+        font-size: 26px;
+        margin: 30px;
+        @include regular;
+
+        span{
+            color: #fff;
+            @include medium;
+        }
+    }
+}
+
+
+.search-product__item{
+    position: relative;
+
+    input{
+        max-width: 100%;
+        width: 100%;
+        padding: 20px 134px 20px 30px;
+        border-radius: 25px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+    }
+
+    button{
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        padding: 20px 40px;
+        border-radius: 25px;
+        background-color: #0674ec;
+        font-size: 15px;
+        color: #fff;
+    }
+   
+}
+
+// <!-- /.search  end-->
+
+
+
+// <!--search-panel -->
+
+.search-panel{
+
+}
+// <!--search-panel end -->
+
+// ------product-page start ---------\\
+
+.product-page{
+    padding: 80px 0 120px;
+    background-color: #eff1f5;
+}
+
+.product-page__inner{
+    display: flex;
+}
+
+.product-page__aside{
+    margin-right: 35px;
+}
