@@ -36,7 +36,8 @@ $(function () {
         max: 1000,
         from: 30,
         to: 600,
-        grid: true
+        grid: true,
+        prefix: '$'
     });
 
 

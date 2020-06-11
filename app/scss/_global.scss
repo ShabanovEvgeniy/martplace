@@ -242,10 +242,9 @@ li{
     
     form{
         margin-top: 30px;
+        
     }
-    button{
-        margin-top: 25px;
-    }
+  
 }
 
 .irs-max,
@@ -277,7 +276,7 @@ li{
 }
 
 .irs-from, .irs-single, .irs-to{
-    top: 45px;
+    top: 58px;
 }
 
 .irs-with-grid .irs-grid{
@@ -286,4 +285,29 @@ li{
 
 .irs--flat .irs-from:before, .irs--flat .irs-single:before, .irs--flat .irs-to:before{
     display: none;
+}
+.irs--flat .irs-from, .irs--flat .irs-single, .irs--flat .irs-to {
+    color: #7347c1;
+    font-size: 15px;
+    line-height: 1.333;
+    text-shadow: none;
+    padding: 8px 27px;
+    background-color: #f1ecf9;
+    border-radius: 25px;
+    @include regular;
+}
+
+.pricing-range__btn{
+    padding: 15px;
+    color: #fff;
+    background-color: #0674ec;
+    border-radius: 30px;
+    width: 170px;
+    border: none;
+    outline: none;
+    display: block;
+    margin: 63px auto 0;
+    cursor: pointer;
+    
+
 }
