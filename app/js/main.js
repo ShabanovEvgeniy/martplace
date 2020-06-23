@@ -40,6 +40,19 @@ $(function () {
         prefix: '$'
     });
 
+    $('.btn-list').on('click', function () {
+        $('.product-item').addClass('list');
+        $('.btn-list').addClass('active');
+        $('.btn-large').removeClass('active')
+    });
+
+    $('.btn-large').on('click', function () {
+        $('.product-item').removeClass('list');
+        $('.btn-list').removeClass('active');
+        $('.btn-large').addClass('active');
+
+    });
+
 
     var mixer = mixitup('.newest__inner');
 
