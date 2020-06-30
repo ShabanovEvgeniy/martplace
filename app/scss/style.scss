@@ -57,6 +57,7 @@
     & + .header__item{
         margin-left: 30px;
     }
+
     .box-number{
         position: absolute;
         height: 23px;
@@ -88,14 +89,108 @@
     }
 }
 
+.home-box{
+    &:hover{
+        .home-box__menu{
+            display: block;
+        }
+    }
+}
 
+.home-box__menu{
+    display: none;
+    position: absolute;
+    top: 87px;
+    
+}
+.product-box{
+    &:hover{
+        .product-box__menu{
+            display: block;
+        }
+    }
+}
+.product-box__menu{
+    display: none;
+    position: absolute;
+    top: 87px;
+    
+}
+
+.wordpress-box{
+    &:hover{
+        .wordpress-box__menu{
+           display: block;
+        }
+    }
+}
+
+.pages-box:hover{
+    .pages-box__menu{
+        height: auto;
+        overflow: auto;
+    }
+}
+.pages-box__menu{
+    position: absolute;
+    top: 88px;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border-top: 1px solid #0674ec;
+    z-index: 1;
+    height: 0;
+    overflow: hidden;
+    transition: all 1s;
+    
+}
+
+.pages-box__menu-wrapper{
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+.pages-box__menu-col{
+    padding: 0 15px;
+}
+.pages-box__menu-items{
+    display: flex;
+}
+.pages-box__menu-item + .pages-box__menu-item{
+    margin-left: 80px;
+}
+
+.pages-box__menu-title{
+    padding: 20px 0;
+    border-bottom: 1px solid #e8ebf0;
+    margin-bottom: 20px;
+    @include medium;
+    font-size: 16px;
+}
+
+.pages-box__item{
+    padding: 15px 0;
+    max-width: 165px;
+
+    a{
+        font-size: 15px;
+        color: #54667a;
+    }
+}
+
+
+.wordpress-box__menu{
+    display: none;
+    position: absolute;
+    top: 87px;
+}
 
 
 .header__menu-inner{
     display: flex;
     justify-content: space-between;
-    padding: 19px 0;
     align-items: center;
+    position: relative;
 }
 
 .header__user{
@@ -108,36 +203,33 @@
 .menu__item{
     
     display: inline-block;
+    padding: 35px 0;
 
     & + .menu__item{
         margin-left: 30px;
         
     }
     &.activ{
-        a,
-        span{
-         color:#3890f0;   
+        .menu-item__link{
+            color:#3890f0;  
         }
         
     }
 
-    a,
-    span{
-        text-transform: uppercase;
-        font-size: 15px;
-        color: #333333;
-        line-height: 42px;
-        @include medium;
-        transition: all .5s;
-        
-    }
     &:hover{
-        a{
+        .menu-item__link{
             color: #3890f0;
         }
     }
-    
+    .menu-item__link{
+        text-transform: uppercase;
+        font-size: 15px;
+        color: #333333;
+        @include medium;
+        transition: all .5s;
+    }
 }
+
 
 .basket-box{
    &:hover{
@@ -150,7 +242,7 @@
         position: absolute;
         top: 60px; 
         right: -15px;
-        z-index: 1;
+        z-index: 2;
         box-shadow: 0px 5px 40px 0px rgba(82, 85, 90, 0.2);
         
        &::before{
@@ -178,7 +270,7 @@
     position: absolute;
     top: 61px;
     right: -24px;
-    z-index: 1;
+    z-index: 2;
     width: 370px;
     border-top: 1px solid #0674ec;
     box-shadow: 0px 5px 40px 0px rgba(82, 85, 90, 0.2);
@@ -522,7 +614,7 @@
     top: 61px;
     right: -20px;
     width: 390px;
-    z-index: 1;
+    z-index: 2;
     box-shadow: 0px 5px 40px 0px rgba(82, 85, 90, 0.2);
     border-top: 1px solid #0674ec;
 
@@ -532,7 +624,7 @@
     position: absolute;
     top: 80px;
     right: 0;
-    z-index: 1;
+    z-index: 2;
     &::before{
         content: "\f0d8";
         font-family: "FontAwesome";
@@ -2173,4 +2265,16 @@ justify-content: space-between;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+@import 'media';
   

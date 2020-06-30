@@ -39,6 +39,8 @@ body{
    
 }
 
+  
+
 .contanier{
     max-width: 1200px;
     margin: 0 auto;
@@ -57,6 +59,33 @@ li{
     list-style: none;
     
 }
+
+.droupdaun-menu{
+    background-color: #fff;
+    box-shadow: 0px 5px 40px 0px rgba(82, 85, 90, 0.2);
+    padding: 20px;
+    border-top: 1px solid #0674ec;
+    
+
+    .droupdaun-menu__item{
+        width: 230px;
+        padding: 15px 10px ;
+        transition: all .5s;
+
+        &:hover{
+            background-color: #0674ec;
+
+            .droupdaun-menu__link{
+            color: #fff;
+        }
+      }
+    }
+    .droupdaun-menu__link{
+        color: #54667a ;
+        font-style: 15px;
+    }
+}
+  
 
 .link-btn{
     padding: 20px 30px;
