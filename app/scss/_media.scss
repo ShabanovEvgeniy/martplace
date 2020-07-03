@@ -36,15 +36,105 @@
             margin-left: 60px;
         }
     }
+    .menu__list{
+        display: none;
+    }
+    .header__menu-search{
+        margin: auto;
+        padding: 10px 0;
+    }
+    
+    
+    .header__logo{
+        margin-left: 70px;
+    }
+    
+    .menu__btn{
+        display: block;
+        width: 30px;
+        position: absolute;
+        top: -57px;
+        div{
+            height: 3px;
+            background-color: #000;
+            & + div {
+                margin-top: 5px;
+            }
+        }
+    }
+   
+}
+@media (max-width: 825px){
+    .header__btn{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 650px){
+    .header__items .header__item + .header__item {
+        margin-left: 15px;
+    }
+    .header__items{
+        margin-right: 15px;
+    }
+    .user__about{
+        margin-left: 5px;
+    }
+    .user__name{
+        font-size: 13px;
+        font-weight: 800;
+    }
+    .user__about .user__cash{
+        font-size: 11px;
+    }
 }
 
 @media (max-width: 560px){
+
+    .header{
+        overflow: hidden;
+        position: relative;
+    }
     .footer__content{
         padding: 40px;
     }
     .footer__copy-text{
         line-height: 25px;
     }
+    .footer-col__form button {
+        padding: 20px 15px;
+    }
+    .header__btn-menu{
+        display: block;
+    }
+    .header__btn-menu{
+        width: 100px;
+        height: 100px;
+        background-color: #eef1f3;
+        position: absolute;
+        top: 0;
+        right: 0;
+        &::before{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 50px;
+            color: black;
+        }
+    }
+    .header__box{
+        transition: ease .5s;
+        left: 83px;
+        position: absolute;
+        background-color: #eef1f3;
+        &.active{
+           left: 100%;
+           right: -100%;
+        }
+    }
+    
 
 }
 
@@ -66,5 +156,13 @@
     .footer-col__social-link li {
         display: inline-block;
         margin-bottom: 10px;
+    }
+}
+
+
+
+@media (min-width: 950px){
+    .menu__list{
+        display: block !important;
     }
 }

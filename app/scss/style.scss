@@ -20,6 +20,9 @@
     align-items: center;
     
 }
+.header__btn-menu{
+    display: none;
+}
 
 
 .header__btn{
@@ -33,8 +36,6 @@
     text-align: center;
     margin-right: 50px;
     
-
-
 }
 
 
@@ -127,8 +128,7 @@
 
 .pages-box:hover{
     .pages-box__menu{
-        height: auto;
-        overflow: auto;
+      display: block;
     }
 }
 .pages-box__menu{
@@ -139,9 +139,7 @@
     background-color: #fff;
     border-top: 1px solid #0674ec;
     z-index: 1;
-    height: 0;
-    overflow: hidden;
-    transition: all 1s;
+    display: none;
     
 }
 
@@ -2241,10 +2239,6 @@ justify-content: space-between;
 
     }
 }
-
-
-
-
 
 .product-item{
     &.list{
