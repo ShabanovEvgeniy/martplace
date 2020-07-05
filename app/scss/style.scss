@@ -20,6 +20,7 @@
     align-items: center;
     
 }
+
 .header__btn-menu{
     display: none;
 }
@@ -111,6 +112,7 @@
         }
     }
 }
+
 .product-box__menu{
     display: none;
     position: absolute;
@@ -237,6 +239,7 @@
    }
 
     &__menu{
+        width: 400px;
         position: absolute;
         top: 60px; 
         right: -15px;
@@ -350,7 +353,6 @@
 
 .menu-box{
     background-color: #fff;
-    width: 400px;
     border-top: 1px solid #0674ec;
     display: none;
 
@@ -688,7 +690,7 @@
 }
 .search__input{
         display: block;
-        width: 100%;
+        max-width: 100%;
         border-radius: 25px;
         height: 44px;
         font-size: 15px;
@@ -705,7 +707,7 @@
         background-color: $bg-btn;
         position: absolute;
         top: 0;
-        right: 0px;
+        right: 70px;
         width: 70px;
         height: 44px;
         border-radius: 25px;
