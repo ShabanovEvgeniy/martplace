@@ -61,6 +61,11 @@ $(function () {
         $('.header__box').toggleClass('active')
     });
 
+    $(".product-one__tabs .tab").click(function () {
+        $(".product-one__tabs .tab").removeClass("active").eq($(this).index()).addClass("active");
+        $(".tab__item").hide().eq($(this).index()).fadeIn()
+    }).eq(0).addClass("active");
+
 
     var mixer = mixitup('.newest__inner');
 

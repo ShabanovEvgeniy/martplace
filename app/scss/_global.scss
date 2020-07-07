@@ -51,6 +51,7 @@ body{
     padding: 0 15px;
 }
 
+
 a{
     display: inline-block;
     text-decoration: none;
@@ -344,3 +345,40 @@ li{
     
 
 }
+
+.breadcrumb-menu{
+    background-color: #4d279a ;
+    padding: 55px 0;
+    &__list{
+        margin-bottom: 20px;
+    }
+}
+.breadcrumb-menu__item{
+    display: inline-block;
+    position: relative;
+    & + .breadcrumb-menu__item {
+        padding-left: 18px;
+        &:before{
+            content: '/';
+            position: absolute;
+            left: 5px;
+            color: #d6d6ee;
+        }  
+    }  
+    
+    .breadcrumb-menu__link{
+        color: #fff;
+        display: block;
+    }
+    
+    &:last-child{
+        a,
+        span{
+            color:#bfcad7
+        }
+        
+    }
+}
+.wrapper .active { color: #0674ec; }
+.tab_item { display: none; }
+.tab_item:first-child { display: block; }
