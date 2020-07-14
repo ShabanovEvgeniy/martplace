@@ -19,6 +19,7 @@
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
     "font-awesome": "^4.7.0",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.1.0",
