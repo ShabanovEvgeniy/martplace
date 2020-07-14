@@ -379,6 +379,13 @@ li{
         
     }
 }
-.wrapper .active { color: #0674ec; }
-.tab_item { display: none; }
-.tab_item:first-child { display: block; }
+.product-one__tabs .active { 
+    color: #0674ec; 
+    border-bottom: none;
+}
+.tab__item { 
+    display: none;
+ }
+.tab__item:first-child { 
+    display: block;
+ }
