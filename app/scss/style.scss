@@ -2672,6 +2672,34 @@ justify-content: space-between;
 
     }
 }
+// <!-- end -->
+
+// --- terms start ----
+.terms{
+    background-color: #eff1f5;
+
+    &__wrapper{
+        padding: 60px 0 120px;
+    }
+}
+.terms__inner{
+    background-color: #fff;
+    padding-bottom: 70px;
+}
+.terms__item{
+    padding: 10px 0 ;
+
+    &-title{
+        padding: 30px ;
+        font-size: 24px;
+        border-bottom: 1px solid #e8ebf0;
+    }
+    &-text{
+        padding: 30px ;
+        color: #555555;
+        line-height: 30px;
+    }
+}
 
   
 
