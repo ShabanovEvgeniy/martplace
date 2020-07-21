@@ -22,9 +22,7 @@ h4,h5,h6,p{
 .wrapper {
 	display: flex;
 	flex-direction: column;
-	min-height: 100%;
-}
-.wrapper--overflow{
+    min-height: 100%;
     overflow-x: hidden;
 }
 .content {
