@@ -2701,6 +2701,143 @@ justify-content: space-between;
     }
 }
 
+//  ------------contact start---------------
+
+.contact{
+    padding: 120px 0;
+    background-color: #eff1f5;
+}
+.contact__head{
+    text-align: center;
+    margin-bottom: 60px;
+
+    &-title{
+        margin-bottom: 30px;
+        font-size: 36px;
+        span{
+            color: #0674ec;
+        }
+    }
+    &-text{
+        max-width: 700px;
+        margin: 0 auto;
+        line-height: 30px;
+        color: #555;
+    }
+}
+.contact__inner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.contact__item{
+    width: calc((100% / 3) - 30px);
+    background-color: #fff;
+    padding: 45px;
+    text-align: center;
+}
+
+.contact__item-img{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 40px;
+    &::before{
+        font-size: 48px;   
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #0674ec;
+    }
+}
+
+.contact__item-text{
+    font-size: 20px;
+    @include medium;
+    margin-bottom: 40px;
+}
+.contact__item-info{
+    line-height: 30px;
+    color: #555555;
+}
+.contact__item-link{
+    display: block;
+    line-height: 30px;
+    color: #555;
+}
+
+.contact__form{
+    background-color: #fff;
+    padding: 35px 0 60px;
+    
+}
+.contact__form-form{
+    max-width: 780px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    textarea{
+        width: 100%;
+        min-height: 135px;
+        margin-bottom: 30px;
+        border: 1px solid #e7e7e7;
+        padding-top: 15px;
+        padding-left: 50px;
+        resize: none;
+        &::placeholder{
+            color: #555;
+        }
+    }
+    button{
+        padding: 20px 5px;
+        width: 190px;
+        border-radius: 30px;
+        border: none;
+        color: #fff;
+        background-color: #0674ec;
+    }
+}
+.contact__form__title{
+    padding: 35px 0;
+    border-bottom: 1px solid #e8ebf0;
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+    
+}
+.contact__box{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    input{
+        padding: 15px 50px;
+        width: calc((100% / 2) - 15px);
+        border: 1px solid #e7e7e7;
+        color: #555;
+        &::placeholder{
+            color: #555;
+        }
+    }
+}
+// ------------- end ---------------------------
+// ------------- start contact__map-------------
+
+.contact__map{
+    background-color: #e3e6ec;
+
+    iframe{
+        width: 100%;
+        height: 400px;
+    }
+}
+
+// ------------- end contact__map-------------
+
+
   
 
 
