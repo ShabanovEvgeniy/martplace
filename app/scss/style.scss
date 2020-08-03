@@ -2844,10 +2844,12 @@ justify-content: space-between;
 
 // ---------------login start----------------
 
-.login-page{
+.login-page,
+.register-page{
     background-color: #eff1f5;
 }
-.login-page__inner{
+.login-page__inner,
+.register-page{
     padding: 70px 0 120px;
 }
 .card-form{
@@ -2859,12 +2861,14 @@ justify-content: space-between;
     padding: 60px 0 30px;
     &__title{
         font-size: 24px;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
         text-align: center;
     }
     &__text{
         text-align: center;
         color: #555555;
+        padding: 0 40px;
+        line-height: 30px;
     }
     button{
         width: 190px;
@@ -2914,6 +2918,10 @@ justify-content: space-between;
         margin-left: 17px;
     }
 } 
+.card-form__link--grey{
+    color: #898f96;
+}
+
 
   
 
