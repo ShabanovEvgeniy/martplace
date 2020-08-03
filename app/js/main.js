@@ -53,6 +53,22 @@ $(function () {
 
     });
 
+
+    $('.btn-favourites__list').on('click', function () {
+        $('.product-card').addClass('list');
+        $('.btn-favourites__list').addClass('active');
+        $('.btn-favourites').removeClass('active');
+    });
+
+    $('.btn-favourites').on('click', function () {
+        $('.product-card').removeClass('list');
+        $('.btn-favourites__list').removeClass('active');
+        $('.btn-favourites').addClass('active');
+
+    });
+
+
+
     $('.menu__btn').on('click', function () {
         $('.menu__list').slideToggle();
     });
