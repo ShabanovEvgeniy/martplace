@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
     <div class="wrapper">
         <div class="content">
             <header class="header">
@@ -17,7 +18,7 @@
                     <div class="contanier">
                         <div class="header__top-inner">
                             <div class="header__logo">
-                                <a href="#">
+                                <a data-fancybox data-src="#modal" href="javascript:;">
                                     <img src="images/header-logo.png" alt="logo">
                                 </a>
                             </div>
@@ -804,602 +805,142 @@
                 </div>
             </header>
             <!-- ----------------------------header end------------------------------- -->
-            <section class="search-product">
-                <div class="contanier">
-                    <div class="search-product__inner">
-                        <div class="search-product__inner-box ">
-                            <h3 class="search-product__title">
-                                <span>4,572 </span>wordpress themes, made with love
-                            </h3>
-                            <div class="search-product__form">
-                                <form class="search-product__item">
-                                    <input type="text" placeholder="Search you products" required>
-                                    <button type="submit">Search</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="breadcrumb">
-                        <div class="breadcrumb__inner">
-                            <ul class="breadcrumb__list">
-                                <li>
-                                    <a href="#">Home</a>
+            <!-- ---------------breadcrumb start----------------------------------------- -->
+            <section class="breadcrumb">
+                <div class="breadcrumb-menu">
+                    <div class="contanier">
+                        <div class="breadcrumb-menu__inner">
+                            <ul class="breadcrumb-menu__list">
+                                <li class="breadcrumb-menu__item">
+                                    <a class="breadcrumb-menu__link" href="#">Home</a>
                                 </li>
-                                <li>
-                                    <a href="#"> Category Page Grid</a>
+                                <li class="breadcrumb-menu__item">
+                                    <a class="breadcrumb-menu__link" href="#"> Blog Version 02 </a>
                                 </li>
                             </ul>
+                            <h3 class="product__title">
+                                Blog Version 02
+                            </h3>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- /.search -->
+            <!-- /.breadcrumb -->
+            <!-- ----------------blog start ------------>
 
-            <!-- search panel-->
-            <div class="search-panel">
+            <section class="blog">
                 <div class="contanier">
-                    <div class="search-panel__inner">
-                        <div class="search-panel__item search-item">
-                            <div class="search-item__links">
-                                <a href="#" class="search-item__link">
-                                    New Products
-                                </a>
-                                <a href="#" class="search-item__link">
-                                    Popular Products
-                                </a>
-                            </div>
-                        </div>
-                        <div class="search-panel__item search-filter">
+                    <div class="blog__wrapper">
+                        <main class="blog__contant">
+                            <div class="blog__contant-card blog__card">
+                                <img src="images/product-slider.jpg" alt="blog-img">
 
-                            <div class="search-filter__item">
-                                <div class="search-filter__item-text">
-                                    <span>Price</span> : Low to High
+                                <div class="blog__card-info blog-info">
+                                    <div class="blog-info__title">
+                                        Top Web Design Trends You Must Know in 2017
+                                    </div>
+                                    <div class="blog-info__items ">
+                                        <li class="fa fa-user-o">
+                                            by <a href="">AazzTech</a>
+                                        </li>
+                                        <li class="fa fa-clock-o">
+                                            24 Feb 2017
+                                        </li>
+                                        <li class="fa fa-comment-o">
+                                            54
+                                        </li>
+                                        <li class="fa fa-eye">
+                                            45
+                                        </li>
+                                    </div>
                                 </div>
-                                <button class="fas fa-chevron-down"></button>
+                                <p class="blog-card__text">
+                                    Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                                    scelerisque
+                                    the mattis, leo quam aliquet congue. incididunt ut labore et dolore magna
+                                    aliqua. Ut
+                                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                    ex
+                                    ea commodo consequat. Duis aute irure dolor in henderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat sunt in culpa
+                                    qui
+                                    officia sunt in culpa qui officia.
+                                </p>
+                                <button class="blog-card__btn">Read More...</button>
                             </div>
+                            <div class="blog__contant-card blog__card">
+                                <img src="images/product-one.jpg" alt="blog-img">
 
-                            <div class="search-filter__item">
-                                <div class="search-filter__item-text">
-                                    12 Items Per Page
+                                <div class="blog__card-info blog-info">
+                                    <div class="blog-info__title">
+                                        Top Web Design Trends You Must Know in 2017
+                                    </div>
+                                    <div class="blog-info__items ">
+                                        <li class="fa fa-user-o">
+                                            by <a href="">AazzTech</a>
+                                        </li>
+                                        <li class="fa fa-clock-o">
+                                            24 Feb 2017
+                                        </li>
+                                        <li class="fa fa-comment-o">
+                                            54
+                                        </li>
+                                        <li class="fa fa-eye">
+                                            45
+                                        </li>
+                                    </div>
                                 </div>
-
-                                <button class="fas fa-chevron-down"></button>
+                                <p class="blog-card__text">
+                                    Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                                    scelerisque
+                                    the mattis, leo quam aliquet congue. incididunt ut labore et dolore magna
+                                    aliqua. Ut
+                                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                    ex
+                                    ea commodo consequat. Duis aute irure dolor in henderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat sunt in culpa
+                                    qui
+                                    officia sunt in culpa qui officia.
+                                </p>
+                                <button class="blog-card__btn">Read More...</button>
                             </div>
+                            <div class="blog__contant-card blog__card">
+                                <img src="images/product-slider3.jpg" alt="blog-img">
 
-                            <div class="search-filter__item search-filter__item--small">
-
-                                <button class="btn-large fas fa-border-all active"></button>
-                                <button class="btn-list fas fa-list-ul"></button>
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- search-panel end -->
-
-            <!-- product-page start -->
-            <section class="product-page">
-                <div class="contanier">
-                    <div class="product-page__inner">
-
-                        <aside class="product-page__aside">
-
-                            <div class="asaid__item catagories">
-                                <div class="asaid__title">
-                                    Catagories
+                                <div class="blog__card-info blog-info">
+                                    <div class="blog-info__title">
+                                        Top Web Design Trends You Must Know in 2017
+                                    </div>
+                                    <div class="blog-info__items ">
+                                        <li class="fa fa-user-o">
+                                            by <a href="">AazzTech</a>
+                                        </li>
+                                        <li class="fa fa-clock-o">
+                                            24 Feb 2017
+                                        </li>
+                                        <li class="fa fa-comment-o">
+                                            54
+                                        </li>
+                                        <li class="fa fa-eye">
+                                            45
+                                        </li>
+                                    </div>
                                 </div>
-                                <ul class="category__list">
-                                    <li>
-                                        <a href="#">Wordpress</a>
-                                        <span>150</span>
-                                    </li>
-                                    <li>
-                                        <a href="#">Landing Page</a>
-                                        <span>100</span>
-                                    </li>
-                                    <li>
-                                        <a href="#">Plugins</a>
-                                        <span>130</span>
-                                    </li>
-                                    <li>
-                                        <a href="#">HTML Template</a>
-                                        <span>90</span>
-                                    </li>
-                                    <li>
-                                        <a href="#">Psd Template</a>
-                                        <span>80</span>
-                                    </li>
-                                    <li>
-                                        <a href="#">Components</a>
-                                        <span>30</span>
-                                    </li>
-                                    <li>
-                                        <a href="#">Joomla Template</a>
-                                        <span>50</span>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="asaid__item filter-product">
-                                <div class="asaid__title">
-                                    Filter Categories
-                                </div>
-                                <ul class="filter-product__list">
-                                    <li>
-                                        <a href="#">Trending Products</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Popular Products</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">New Products</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Best Seller</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Best Rating</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Low Price</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">High Price</a>
-                                    </li>
-                                </ul>
+                                <p class="blog-card__text">
+                                    Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                                    scelerisque
+                                    the mattis, leo quam aliquet congue. incididunt ut labore et dolore magna
+                                    aliqua. Ut
+                                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                    ex
+                                    ea commodo consequat. Duis aute irure dolor in henderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat sunt in culpa
+                                    qui
+                                    officia sunt in culpa qui officia.
+                                </p>
+                                <button class="blog-card__btn">Read More...</button>
                             </div>
 
-                            <div class="asaid__item pricing-range">
-                                <div class="asaid__title">
-                                    Pricing Range
-                                </div>
-                                <form>
-                                    <input type="text" class="js-range-slider" name="my_range" value="" />
-                                    <button class="pricing-range__btn" type="submit">Search Update</button>
-                                </form>
-                            </div>
-                        </aside>
-
-                        <div class="product-page__content">
-
-                            <div class="product-page__items">
-
-                                <div class="product-page__item product-item">
-                                    <a class="product-item__img" href="#">
-                                        <img src="images/product-slider2.jpg" alt="product">
-                                    </a>
-                                    <div class="product-item__content ">
-                                        <div class="product-item__title">
-                                            <a href="#">Finance and Consulting
-                                                Business Theme
-                                            </a>
-                                        </div>
-                                        <div class="product-item__user">
-                                            <img src="images/avatar.jpg" alt="avatar">
-                                            <a href="#">Theme-Valley</a>
-                                        </div>
-                                        <div class="product-item__reiting">
-                                            <div class="rateyo"></div>
-                                            <div class="top-product__bay">
-                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                                634
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="product-item__footer">
-                                        <span class="product-item__price">
-                                            $18
-                                        </span>
-                                        <div class="product-item__product">
-                                            <div class="product-item__foto">
-                                                <img src="images/avatar3.jpg" alt="avatar">
-                                            </div>
-                                            <a class="product-item__link" href="#">WordPress</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="product-page__item product-item">
-                                    <a class="product-item__img" href="#">
-                                        <img src="images/product-slider2.jpg" alt="product">
-                                    </a>
-                                    <div class="product-item__content">
-                                        <div class="product-item__title">
-                                            <a href="#">Finance and Consulting
-                                                Business Theme
-                                            </a>
-                                        </div>
-                                        <div class="product-item__user">
-                                            <img src="images/avatar.jpg" alt="avatar">
-                                            <a href="#">Theme-Valley</a>
-                                        </div>
-                                        <div class="product-item__reiting">
-                                            <div class="rateyo"></div>
-                                            <div class="top-product__bay">
-                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                                634
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="product-item__footer">
-                                        <span class="product-item__price">
-                                            $18
-                                        </span>
-                                        <div class="product-item__product">
-                                            <div class="product-item__foto">
-                                                <img src="images/avatar3.jpg" alt="avatar">
-                                            </div>
-                                            <a class="product-item__link" href="#">WordPress</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="product-page__item product-item">
-                                    <a class="product-item__img" href="#">
-                                        <img src="images/product-slider2.jpg" alt="product">
-                                    </a>
-                                    <div class="product-item__content">
-                                        <div class="product-item__title">
-                                            <a href="#">Finance and Consulting
-                                                Business Theme
-                                            </a>
-                                        </div>
-                                        <div class="product-item__user">
-                                            <img src="images/avatar.jpg" alt="avatar">
-                                            <a href="#">Theme-Valley</a>
-                                        </div>
-                                        <div class="product-item__reiting">
-                                            <div class="rateyo"></div>
-                                            <div class="top-product__bay">
-                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                                634
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="product-item__footer">
-                                        <span class="product-item__price">
-                                            $18
-                                        </span>
-                                        <div class="product-item__product">
-                                            <div class="product-item__foto">
-                                                <img src="images/avatar3.jpg" alt="avatar">
-                                            </div>
-                                            <a class="product-item__link" href="#">WordPress</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="product-page__item product-item">
-                                    <a class="product-item__img" href="#">
-                                        <img src="images/product-slider2.jpg" alt="product">
-                                    </a>
-                                    <div class="product-item__content">
-                                        <div class="product-item__title">
-                                            <a href="#">Finance and Consulting
-                                                Business Theme
-                                            </a>
-                                        </div>
-                                        <div class="product-item__user">
-                                            <img src="images/avatar.jpg" alt="avatar">
-                                            <a href="#">Theme-Valley</a>
-                                        </div>
-                                        <div class="product-item__reiting">
-                                            <div class="rateyo"></div>
-                                            <div class="top-product__bay">
-                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                                634
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="product-item__footer">
-                                        <span class="product-item__price">
-                                            $18
-                                        </span>
-                                        <div class="product-item__product">
-                                            <div class="product-item__foto">
-                                                <img src="images/avatar3.jpg" alt="avatar">
-                                            </div>
-                                            <a class="product-item__link" href="#">WordPress</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="product-page__item product-item">
-                                    <a class="product-item__img" href="#">
-                                        <img src="images/product-slider2.jpg" alt="product">
-                                    </a>
-                                    <div class="product-item__content">
-                                        <div class="product-item__title">
-                                            <a href="#">Finance and Consulting
-                                                Business Theme
-                                            </a>
-                                        </div>
-                                        <div class="product-item__user">
-                                            <img src="images/avatar.jpg" alt="avatar">
-                                            <a href="#">Theme-Valley</a>
-                                        </div>
-                                        <div class="product-item__reiting">
-                                            <div class="rateyo"></div>
-                                            <div class="top-product__bay">
-                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                                634
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="product-item__footer">
-                                        <span class="product-item__price">
-                                            $18
-                                        </span>
-                                        <div class="product-item__product">
-                                            <div class="product-item__foto">
-                                                <img src="images/avatar3.jpg" alt="avatar">
-                                            </div>
-                                            <a class="product-item__link" href="#">WordPress</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="product-page__item product-item">
-                                    <a class="product-item__img" href="#">
-                                        <img src="images/product-slider2.jpg" alt="product">
-                                    </a>
-                                    <div class="product-item__content">
-                                        <div class="product-item__title">
-                                            <a href="#">Finance and Consulting
-                                                Business Theme
-                                            </a>
-                                        </div>
-                                        <div class="product-item__user">
-                                            <img src="images/avatar.jpg" alt="avatar">
-                                            <a href="#">Theme-Valley</a>
-                                        </div>
-                                        <div class="product-item__reiting">
-                                            <div class="rateyo"></div>
-                                            <div class="top-product__bay">
-                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                                634
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="product-item__footer">
-                                        <span class="product-item__price">
-                                            $18
-                                        </span>
-                                        <div class="product-item__product">
-                                            <div class="product-item__foto">
-                                                <img src="images/avatar3.jpg" alt="avatar">
-                                            </div>
-                                            <a class="product-item__link" href="#">WordPress</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="product-page__item product-item">
-                                    <a class="product-item__img" href="#">
-                                        <img src="images/product-slider2.jpg" alt="product">
-                                    </a>
-                                    <div class="product-item__content">
-                                        <div class="product-item__title">
-                                            <a href="#">Finance and Consulting
-                                                Business Theme
-                                            </a>
-                                        </div>
-                                        <div class="product-item__user">
-                                            <img src="images/avatar.jpg" alt="avatar">
-                                            <a href="#">Theme-Valley</a>
-                                        </div>
-                                        <div class="product-item__reiting">
-                                            <div class="rateyo"></div>
-                                            <div class="top-product__bay">
-                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                                634
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="product-item__footer">
-                                        <span class="product-item__price">
-                                            $18
-                                        </span>
-                                        <div class="product-item__product">
-                                            <div class="product-item__foto">
-                                                <img src="images/avatar3.jpg" alt="avatar">
-                                            </div>
-                                            <a class="product-item__link" href="#">WordPress</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="product-page__item product-item">
-                                    <a class="product-item__img" href="#">
-                                        <img src="images/product-slider2.jpg" alt="product">
-                                    </a>
-                                    <div class="product-item__content">
-                                        <div class="product-item__title">
-                                            <a href="#">Finance and Consulting
-                                                Business Theme
-                                            </a>
-                                        </div>
-                                        <div class="product-item__user">
-                                            <img src="images/avatar.jpg" alt="avatar">
-                                            <a href="#">Theme-Valley</a>
-                                        </div>
-                                        <div class="product-item__reiting">
-                                            <div class="rateyo"></div>
-                                            <div class="top-product__bay">
-                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                                634
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="product-item__footer">
-                                        <span class="product-item__price">
-                                            $18
-                                        </span>
-                                        <div class="product-item__product">
-                                            <div class="product-item__foto">
-                                                <img src="images/avatar3.jpg" alt="avatar">
-                                            </div>
-                                            <a class="product-item__link" href="#">WordPress</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="product-page__item product-item">
-                                    <a class="product-item__img" href="#">
-                                        <img src="images/product-slider2.jpg" alt="product">
-                                    </a>
-                                    <div class="product-item__content">
-                                        <div class="product-item__title">
-                                            <a href="#">Finance and Consulting
-                                                Business Theme
-                                            </a>
-                                        </div>
-                                        <div class="product-item__user">
-                                            <img src="images/avatar.jpg" alt="avatar">
-                                            <a href="#">Theme-Valley</a>
-                                        </div>
-                                        <div class="product-item__reiting">
-                                            <div class="rateyo"></div>
-                                            <div class="top-product__bay">
-                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                                634
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="product-item__footer">
-                                        <span class="product-item__price">
-                                            $18
-                                        </span>
-                                        <div class="product-item__product">
-                                            <div class="product-item__foto">
-                                                <img src="images/avatar3.jpg" alt="avatar">
-                                            </div>
-                                            <a class="product-item__link" href="#">WordPress</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="product-page__item product-item">
-                                    <a class="product-item__img" href="#">
-                                        <img src="images/product-slider2.jpg" alt="product">
-                                    </a>
-                                    <div class="product-item__content">
-                                        <div class="product-item__title">
-                                            <a href="#">Finance and Consulting
-                                                Business Theme
-                                            </a>
-                                        </div>
-                                        <div class="product-item__user">
-                                            <img src="images/avatar.jpg" alt="avatar">
-                                            <a href="#">Theme-Valley</a>
-                                        </div>
-                                        <div class="product-item__reiting">
-                                            <div class="rateyo"></div>
-                                            <div class="top-product__bay">
-                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                                634
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="product-item__footer">
-                                        <span class="product-item__price">
-                                            $18
-                                        </span>
-                                        <div class="product-item__product">
-                                            <div class="product-item__foto">
-                                                <img src="images/avatar3.jpg" alt="avatar">
-                                            </div>
-                                            <a class="product-item__link" href="#">WordPress</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="product-page__item product-item">
-                                    <a class="product-item__img" href="#">
-                                        <img src="images/product-slider2.jpg" alt="product">
-                                    </a>
-                                    <div class="product-item__content">
-                                        <div class="product-item__title">
-                                            <a href="#">Finance and Consulting
-                                                Business Theme
-                                            </a>
-                                        </div>
-                                        <div class="product-item__user">
-                                            <img src="images/avatar.jpg" alt="avatar">
-                                            <a href="#">Theme-Valley</a>
-                                        </div>
-                                        <div class="product-item__reiting">
-                                            <div class="rateyo"></div>
-                                            <div class="top-product__bay">
-                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                                634
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="product-item__footer">
-                                        <span class="product-item__price">
-                                            $18
-                                        </span>
-                                        <div class="product-item__product">
-                                            <div class="product-item__foto">
-                                                <img src="images/avatar3.jpg" alt="avatar">
-                                            </div>
-                                            <a class="product-item__link" href="#">WordPress</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="product-page__item product-item">
-                                    <a class="product-item__img" href="#">
-                                        <img src="images/product-slider2.jpg" alt="product">
-                                    </a>
-                                    <div class="product-item__content">
-                                        <div class="product-item__title">
-                                            <a href="#">Finance and Consulting
-                                                Business Theme
-                                            </a>
-                                        </div>
-                                        <div class="product-item__user">
-                                            <img src="images/avatar.jpg" alt="avatar">
-                                            <a href="#">Theme-Valley</a>
-                                        </div>
-                                        <div class="product-item__reiting">
-                                            <div class="rateyo"></div>
-                                            <div class="top-product__bay">
-                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                                634
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="product-item__footer">
-                                        <span class="product-item__price">
-                                            $18
-                                        </span>
-                                        <div class="product-item__product">
-                                            <div class="product-item__foto">
-                                                <img src="images/avatar3.jpg" alt="avatar">
-                                            </div>
-                                            <a class="product-item__link" href="#">WordPress</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
                             <div class="pagination">
                                 <ul class="pagination__list">
                                     <li><button class="fa fa-long-arrow-left"></button></li>
@@ -1410,35 +951,147 @@
                                     <li><button class="fa fa-long-arrow-right"></button></li>
                                 </ul>
                             </div>
-                        </div>
+                        </main>
 
+                        <aside class="blog__asaid">
+                            <div class="blog__asaid-inner aside-inner">
+                                <div class="aside-inner__card asaid-card">
+                                    <div class="asaid-card__title">
+                                        Search Post
+                                    </div>
+                                    <div class="asaid-card__contant">
+                                        <form>
+                                            <input type="text" placeholder="Search post">
+                                            <button>
+                                                <img src="images/icons/search.png" alt="search">
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="aside-inner__card asaid-card">
+                                    <div class="asaid-card__title">
+                                        <a class="active" href="#">Popular Posts</a>
+                                        <a href="#">Latest Posts</a>
+                                    </div>
+                                    <div class="asaid-card__contant ">
+                                        <div class="asaid-card__contant-card contant-card">
+                                            <img class="contant-card__img" src="images/product-card.jpg" alt="">
+                                            <div class="contact-card__info">
+                                                <div class="contact-card__title">
+                                                    5 best jQuery form validation plugins you must try
+                                                </div>
+                                                <div class="contact-card__date fa fa-clock-o">
+                                                    24 Feb 2017
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="asaid-card__contant-card contant-card">
+                                            <img class="contant-card__img" src="images/product-card.jpg" alt="">
+                                            <div class="contact-card__info">
+                                                <div class="contact-card__title">
+                                                    5 best jQuery form validation plugins you must try
+                                                </div>
+                                                <div class="contact-card__date fa fa-clock-o">
+                                                    24 Feb 2017
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="asaid-card__contant-card contant-card">
+                                            <img class="contant-card__img" src="images/product-card.jpg" alt="">
+                                            <div class="contact-card__info">
+                                                <div class="contact-card__title">
+                                                    5 best jQuery form validation plugins you must try
+                                                </div>
+                                                <div class="contact-card__date fa fa-clock-o">
+                                                    24 Feb 2017
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="asaid-card__contant-card contant-card">
+                                            <img class="contant-card__img" src="images/product-card.jpg" alt="">
+                                            <div class="contact-card__info">
+                                                <div class="contact-card__title">
+                                                    5 best jQuery form validation plugins you must try
+                                                </div>
+                                                <div class="contact-card__date fa fa-clock-o">
+                                                    24 Feb 2017
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="aside-inner__card asaid-card">
+                                    <div class="asaid-card__title">
+                                        Categories
+                                    </div>
+                                    <ul class="asaid-card__list">
+                                        <li>
+                                            <a class="active" href="#">WordPress Tutorials</a>
+                                            <span>45</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">News & Updates</a>
+                                            <span>85</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">Tutorials</a>
+                                            <span>95</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">Joomla Tutorials</a>
+                                            <span>55</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">Quix Resources</a>
+                                            <span>415</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">Reviews</a>
+                                            <span>50</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">Resources</a>
+                                            <span>90</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="aside-inner__card asaid-card">
+                                    <div class="asaid-card__title">
+                                        Popular Tags
+                                    </div>
+                                    <div class="asaid-card__link">
+                                        <a href="#">Branding</a>
+                                        <a href="#">Design</a>
+                                        <a href="#">Marketing</a>
+                                        <a href="#">Development</a>
+                                        <a href="#">Design</a>
+                                        <a href="#">Marketing</a>
+                                        <a href="#">Marketing</a>
+                                        <a href="#">Development</a>
+                                        <a href="#">Design</a>
+                                        <a href="#">Marketing</a>
+                                        <a href="#">Design</a>
+                                        <a href="#">Marketing</a>
+                                    </div>
+
+                                </div>
+
+                                <div class="asaid-banner">
+                                    <img src="images/banner.jpg" alt="banner">
+                                </div>
+                            </div>
+
+                        </aside>
                     </div>
-
                 </div>
             </section>
-            <!-- product-page end -->
-            <section class="cooperation">
-                <div class="contanier">
-                    <div class="cooperation__inner">
-                        <div class="cooperation__inner-item cooperation-card">
-                            <h3 class="cooperation-card__title">
-                                Ready to Join Our Marketplace!
-                            </h3>
-                            <span class="cooperation-card__subtitle">
-                                Over 25,000 designers and developers trust the MartPlace.
-                            </span>
-                            <a class="cooperation-card__link" href="#">Join Us Today</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- cooperation end -->
+
+            <!-- ----------------blog end ------------>
+
+
         </div>
         <!-- content end -->
-
-
-
-
 
         <!-- footer start -->
         <footer class="footer">
@@ -1600,9 +1253,23 @@
                 </div>
             </div>
         </footer>
-        <!-- /footer -->
+
+        <!-- popup start -->
+        <div style="display: none;" id="modal">
+            <h2>Hello!</h2>
+            <p>This is my firs MartPlace!!!</p>
+        </div>
+        <!-- popup end  -->
+
+
+
+
+
+
+
+
+
     </div>
-    <!-- /wrapper -->
 
     <script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
     </script>
