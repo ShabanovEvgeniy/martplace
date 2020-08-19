@@ -151,6 +151,13 @@
         display: flex;
         justify-content: center;
     }
+    .contact__item {
+        width: 300px;
+        margin-bottom: 15px;
+    }
+    .contact__inner {
+        justify-content:space-around ;
+    }
 }
 
 
@@ -197,6 +204,22 @@
         font-size: 20px;
         line-height: 25px;
     }
+    .contact__item {
+        width: 100%;
+    }
+    .contact__item-img,
+    .contact__item-text {
+        margin-bottom: 20px;
+    }
+    .contact__box input {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+.contact__box {
+    display: block;
+}
 }
 
 @media (max-width: 560px){
