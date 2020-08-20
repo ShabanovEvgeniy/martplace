@@ -30,6 +30,26 @@
     .product-card__user {
         margin-right: 15px;
     }
+    
+    .product-card.list {
+        width: 100%;
+        .footer-card{
+            border-top: none;
+        }
+        .product__bay{
+            margin-left: 20px;
+        }
+        .product-card__text{
+            line-height: 20px;
+        }
+    }
+}
+@media (max-width: 1125px){
+    // .favourites__inner{}
+        .product-card{
+            width: 48%;
+        } 
+    
 }
 
 @media (max-width: 950px){
@@ -158,6 +178,21 @@
     .contact__inner {
         justify-content:space-around ;
     }
+    .search-panel__inner {
+        flex-direction: column;
+    }
+    .search-panel__item{
+        margin-bottom: 20px;
+    }
+    .search-filter__item+.search-filter__item {
+        margin-left: 5px;
+    }
+    .cooperation {
+        padding: 60px 0;
+    }
+    .product-card.list {
+        width: 100%;
+    }
 }
 
 
@@ -180,6 +215,13 @@
 
     .product__title {
         font-size: 25px;
+    }
+}
+@media (max-width: 725px){
+    .favourites__inner{
+        .product-card{
+            width: 100%;
+        } 
     }
 }
 @media (max-width: 650px){
@@ -217,9 +259,12 @@
         margin-bottom: 10px;
     }
     
-.contact__box {
-    display: block;
-}
+    .contact__box {
+        display: block;
+    }
+    .search-filter__item {
+        padding: 5px;
+    }
 }
 
 @media (max-width: 560px){
@@ -333,12 +378,28 @@
         margin-bottom: 30px;
     }
     .pagination__list li:first-child {
-        margin-right: 10px;
+        margin-right: 9px;
     }
     .pagination__list li:last-child {
-        margin-right: 10px;
+        margin-left: 9px;
+    }
+    .search-filter {
+        flex-direction: column;
+        width: 100%;
+    }
+    .search-filter__item {
+        margin-bottom: 10px;
+        justify-content: space-between;
+    }
+    .search-filter__item+.search-filter__item {
+        margin-left: 0;
+    }
+    .product-card__content {
+        padding: 15px;
+        
     }
  }
+
 @media (max-width: 430px){
     
     .user__about{
@@ -397,6 +458,15 @@
     }
     .asaid-card__title {
         padding: 28px 10px;
+    } 
+    .blog-info__items li {
+        font-size: 14px;
+    }
+    .blog-info__items li+li {
+        margin-left: 15px;
+    }
+    .footer-card{
+        padding: 15px 5px;
     }
     
 }

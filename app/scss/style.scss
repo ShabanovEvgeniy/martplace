@@ -1088,6 +1088,7 @@
         box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
         margin-bottom: 30px;
         width: calc((100% / 3) - 30px);
+        background-color: #fff;
         
         
         &.list{
@@ -1120,7 +1121,7 @@
         }
         &__content{
             padding: 25px;
-            background-color: #fff;
+            
 
         }
        
@@ -1208,7 +1209,7 @@
     .product-card__text{
         color: #555555;
         line-height: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .footer-card{
@@ -1217,7 +1218,6 @@
         align-items: center;
         border-top: 2px solid #ececec;
         padding: 15px 30px;
-        background-color: #fff;
         color: #338def;
 
 
