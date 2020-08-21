@@ -2995,8 +2995,9 @@ justify-content: space-between;
     
 
     &-img{
-        height: 355px;
-        width:  458px;
+        min-height: 170px;
+        max-width:  458px;
+        margin: auto;
         
 
         img{
@@ -3010,6 +3011,7 @@ justify-content: space-between;
 .works__item-card{
     padding: 35px 0;
     max-width: 455px;
+    margin: auto;
 }
 .works__item-title{
     margin-bottom: 30px;

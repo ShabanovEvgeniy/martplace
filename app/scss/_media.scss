@@ -60,6 +60,27 @@
         }
     
 }
+@media (max-width: 965px){
+
+    .works__wrapper-inner{
+        flex-wrap: wrap;
+        .works__item{
+            width: 75%;
+            margin: auto;
+        }
+    }
+    .works__wrapper-row {
+        padding: 50px 0;
+        padding-bottom: 0;
+    }
+    .works__item-title {
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+    .works__item-btn{
+        padding: 15px 5px;
+    }
+}
 
 @media (max-width: 950px){
     .footer-col__menu{
