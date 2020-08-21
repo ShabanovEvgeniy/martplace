@@ -3120,11 +3120,12 @@ justify-content: space-between;
 }
 .pricing-card__list{
     margin-bottom: 30px;
+
     li{
         padding: 10px 20px;
         text-align: start;
         color: #555555;
-        max-width: 240px;
+        
 
         span {
             @include medium;

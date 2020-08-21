@@ -43,12 +43,21 @@
             line-height: 20px;
         }
     }
+    
+    .pricing__wrapper-inner {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 }
 @media (max-width: 1125px){
     // .favourites__inner{}
         .product-card{
             width: 48%;
         } 
+        .pricing-card{
+            width: 48%;
+            margin-bottom: 15px;
+        }
     
 }
 
@@ -340,6 +349,13 @@
     }
     .card-form__link {
         margin-bottom: 20px;
+    }
+    
+    .pricing-card{
+        width: 100%;
+    }
+    .pricing-card__list li {
+        border-top: 2px solid #ececec;
     }
 }
 
