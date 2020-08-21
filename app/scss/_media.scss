@@ -285,6 +285,12 @@
     .search-filter__item {
         padding: 5px;
     }
+    .card-form__link+.card-form__link {
+        margin-left: 0;
+    }
+    .card-form__link {
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 560px){
@@ -490,6 +496,9 @@
     }
     .product-card.list .product__bay {
         margin-left: 5px;
+    }
+    .card-form__box-input {
+        font-size: 12px;
     }
     
 }
