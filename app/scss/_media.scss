@@ -80,6 +80,17 @@
     .works__item-btn{
         padding: 15px 5px;
     }
+    .marketplace__item-subtitle {
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+    .marketplace__item-title {
+        font-size: 45px;
+    }
+    .marketplace {
+        padding: 100px 0 30px;
+        min-height: 575px;
+    }
 }
 
 @media (max-width: 950px){
@@ -267,6 +278,9 @@
         max-width: 75%;
         
     }
+    .marketplace__item-title {
+        margin-bottom: 16px;
+    }
 
 }
 
@@ -307,6 +321,19 @@
 
     .product__title {
         font-size: 25px;
+    }
+    
+    .marketplace__item-title {
+        font-size: 40px;
+    }
+    
+    .marketplace__item-subtitle {
+        font-size: 12px;
+        letter-spacing: 1px;
+        line-height: 40px;
+    }
+    .marketplace__item-title {
+        font-size: 35px;
     }
 }
 
@@ -377,6 +404,12 @@
     }
     .pricing-card__list li {
         border-top: 2px solid #ececec;
+    }
+    .marketplace__item-subtitle {
+        letter-spacing: 0
+    }
+    .marketplace__item-title {
+        font-size: 25px;
     }
 }
 
@@ -469,6 +502,10 @@
     .product-item {
         /* width: 263px; */
         width: 100%;
+    }
+    
+    .marketplace__item-subtitle {
+       font-size: 10px;
     }
 
 }
@@ -598,8 +635,15 @@
         font-size: 12px;
         padding-right: 50px;
     }
+    .marketplace__item-title {
+        line-height: 33px;
+    }
     .terms__item-text {
         line-height: 25px;
+    }
+    .link-btn {
+        padding: 20px 15px;
+        font-size: 14px;
     }
     
 }
