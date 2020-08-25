@@ -765,7 +765,8 @@
     position: relative;
     padding: 170px 0 120px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
     .search-box{
@@ -779,6 +780,8 @@
     
         &__form{
             display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
 
             button{
                 padding: 20px 60px;
@@ -786,6 +789,7 @@
                 color: #fff;
                 cursor: pointer;
                 border: none;
+                height: 100%;
             }
         }
 
@@ -930,7 +934,7 @@
     .top-product__link{
         padding: 7px 16px;
         background-color: #f1f3f6;
-        font-style: 15px;
+        font-size: 15px;
         border-radius: 25px;
         color: #868c96;
         margin-right: 15px;
@@ -960,6 +964,7 @@
         font-size: 15px;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     .top-product__price{
         background-color: #0674ec;
@@ -1072,9 +1077,10 @@
 
     .newest__inner{
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         flex-wrap: wrap;
         margin-bottom: 20px;
+        margin-left: -30px;
 
         &-card{
             width: calc((100% / 3) - 30px);
@@ -1088,7 +1094,10 @@
         box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
         margin-bottom: 30px;
         width: calc((100% / 3) - 30px);
+        flex-basis: calc(33.3333% - 30px);
         background-color: #fff;
+        margin-left: 30px;
+        
         
         
         &.list{
