@@ -7,6 +7,7 @@ $(function () {
         fade: true,
         cssEase: 'linear',
 
+
     });
 
     $('.subscribers__slider').slick({
