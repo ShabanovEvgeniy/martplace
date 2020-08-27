@@ -1281,6 +1281,13 @@
 .subscribers{
     padding: 115px 0;
     background-color: #eff1f5;
+    
+    .slick-slide{
+        margin-left: 30px;
+    }
+    .slick-list{
+        margin-left: -30px;
+    }
 }
 
 .subscribers__box{
@@ -1295,14 +1302,15 @@
 .subscribers__title{
     font-size: 30px;
     @include regular;
-
-
 }
-
 .subscribers__slider__item{
-    display: flex;
-    justify-content: space-between;
+    
+    .product-card{
+        width: 100%;
+    }
 }
+
+
 
 
 

@@ -14,6 +14,26 @@ $(function () {
         prevArrow: '<button type="button" class="slick-arrow slick-arrow--prev"> <i class="fa fa-chevron-left" aria-hidden="true"></i></button>',
         nextArrow: '<button type="button" class="slick-arrow slick-arrow--next"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>',
         appendArrows: '.arrows-wrap',
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    infinite: true,
+                }
+            },
+            {
+                breakpoint: 715,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+        ]
+
 
     });
 

@@ -344,6 +344,14 @@
 
 
 @media (max-width: 825px){
+    .subscribers{
+        .product-card{
+            &__text{  
+        line-height: 25px;
+        margin-bottom: 15px;
+            }
+        }
+}
     .header__btn{
         display: none;
     }
