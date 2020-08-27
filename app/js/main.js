@@ -40,6 +40,19 @@ $(function () {
     $('.reviews__slider').slick({
         autoplay: true,
         autoplaySpeed: 2000,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+
+        responsive: [
+            {
+                breakpoint: 726,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                }
+            },
+        ]
 
     });
 
